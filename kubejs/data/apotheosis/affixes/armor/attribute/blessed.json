@@ -1,0 +1,11 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "minecraft:generic.max_health",
+	"operation": "ADDITION",
+	"values": {
+
+	},
+	"types": [
+		"helmet", "chestplate", "leggings", "boots"
+	]
+}

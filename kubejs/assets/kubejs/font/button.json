@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "kubejs:button/cactus_side.png",
+            "ascent": 10,
+            "height": 14,
+            "chars": ["\u0063"]
+        }
+    ]
+}

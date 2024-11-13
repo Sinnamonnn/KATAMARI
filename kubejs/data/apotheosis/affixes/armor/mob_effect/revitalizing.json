@@ -1,0 +1,11 @@
+{
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "minecraft:instant_health",
+	"target": "HURT_SELF",
+	"values": {
+
+	},
+	"types": [
+		"chestplate", "leggings"
+	]
+}

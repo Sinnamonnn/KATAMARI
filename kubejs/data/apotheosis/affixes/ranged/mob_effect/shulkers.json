@@ -1,0 +1,13 @@
+{
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "minecraft:levitation",
+	"target": "ARROW_TARGET",
+	"values": {
+		
+	},
+	"types": [
+		"bow",
+		"crossbow",
+		"trident"
+	]
+}

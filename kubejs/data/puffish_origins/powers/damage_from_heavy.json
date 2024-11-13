@@ -1,0 +1,36 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier":
+    {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "multiply_total",
+        "value": 0.5
+    },
+    "condition":
+    {
+        "type": "origins:and",
+        "conditions":
+        [
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition":
+                {
+                    "type": "origins:ingredient",
+                    "ingredient":
+                    {
+                        "tag": "puffish_origins:heavy_weapons"
+                    }
+                }
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "offhand",
+                "item_condition":
+                {
+                    "type": "origins:empty"
+                }
+            }
+        ]
+    }
+}

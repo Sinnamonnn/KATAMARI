@@ -1,0 +1,35 @@
+{
+	"heavy_weapon_spec":
+    {
+        "title": "Heavy Weapon Specialization",
+        "frame":
+        {
+            "type": "advancement",
+            "data":
+            {
+                "frame": "challenge"
+            }
+        },
+        "icon":
+        {
+            "type": "item",
+            "data":
+            {
+                "item": "diamond_axe"
+            }
+        },
+        "rewards":
+        [
+            {
+                "type": "puffish_skills:command",
+                "data":
+                {
+                    "unlock_command": "power grant @s puffish_origins:damage_from_heavy",
+                    "lock_command": "power remove @s puffish_origins:damage_from_heavy"
+                }
+            }
+        ],
+        "description": "You are able to deal more damage with heavy weapons.",
+        "extra_description": "+50% damage while holding nothing in the offhand and either an axe, diamond or netherite sword, or trident in the mainhand."
+    }
+}
